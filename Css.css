@@ -1,0 +1,84 @@
+body {
+    background-color: #000058;
+	color: white;
+	text-align:center;
+	font-size:32pt;
+	font-family:  cursive, sans-serif;
+}
+
+table {
+    background-color:#283552;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+#message{
+    color: #FC4F13;
+    font-size:16pt;
+    text-align:center;
+}
+
+.Square {
+    width:100px;
+    height:100px;
+    text-align:center;
+    font-size:40pt;
+    font-weight:bold;
+    color: white;
+}
+
+.border{
+    border-style: solid;
+    border-width: 25px;
+    border-color: #283552;
+    
+}
+
+button {
+  background-color: #E2A009;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: bold;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-weight:bold;
+  font-family:  cursive, sans-serif;
+}
+#n2{
+    border-style: solid;
+    border-width: 2px;
+    border-color: #0C6CC7;
+    border-bottom: none;
+    border-top: none;
+}
+#n4{
+    border-style: solid;
+    border-width: 2px;
+    border-color: #0C6CC7;
+    border-left: none;
+    border-right: none;
+}
+#n5{
+    border-style: solid;
+    border-width: 2px;
+    border-color: #0C6CC7;
+}
+#n6{
+    border-style: solid;
+    border-width: 2px;
+    border-color: #0C6CC7;
+    border-left: none;
+    border-right: none;
+}
+#n8{
+    border-style: solid;
+    border-width: 2px;
+    border-color: #0C6CC7;
+    border-bottom: none;
+    border-top: none;
+}

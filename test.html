@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="Css.css">
+		<script type="text/javascript" src="Logika.js"></script>
+	</head>
+	<body onload="startGame();">
+		<table class="border">
+		    <tr>
+		        <th colspan="3">Tic Tac Toe </th>
+            </tr>
+            <tr>
+		        <th colspan="3" id="message"></th>
+            </tr>
+            <tr>
+                <th colspan="3">
+                 <p>
+                     
+                 </p>
+                </th>
+            </tr>
+		    <tr>
+		        <td id="n1" class="Square" onclick="nextStep(this)"></td>
+		        <td id="n2" class="Square" onclick="nextStep(this)"></td>
+		        <td id="n3" class="Square" onclick="nextStep(this)"></td>
+		    </tr>
+		    <tr>
+		        <td id="n4" class="Square" onclick="nextStep(this)"></td>
+		        <td id="n5" class="Square" onclick="nextStep(this)"></td>
+		        <td id="n6" class="Square" onclick="nextStep(this)"></td>
+		    </tr>
+		    <tr>
+		        <td id="n7" class="Square" onclick="nextStep(this)"></td>
+		        <td id="n8" class="Square" onclick="nextStep(this)"></td>
+		        <td id="n9" class="Square" onclick="nextStep(this)"></td>
+		    </tr>
+		</table>
+		<div>
+		    <button class="but1" onclick="update()">
+		        New Game
+		    </button>
+		    <button class="but2" onclick="history()">
+		        History
+		    </button>
+		</div>
+	</body>
+</html>
